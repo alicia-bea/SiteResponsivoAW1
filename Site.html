@@ -1,0 +1,400 @@
+<html>
+ <head>
+    <title>CatVet-Clinica Veterinária para Gatos</title>
+
+        <meta charset="UTF-8"/>
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+
+            span{
+                color:rgb(251, 251, 143);
+            }
+           
+             .texto_logo{color:black; }
+           
+            #container{
+                width:1000px;
+                margin: 0 auto;
+            }
+        
+            a:link, a:active, a:visited{
+                color:black;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color:rgb(29, 0, 247);
+            }
+
+            header{
+                padding:15px 0 ;
+                height: 55px;
+            }
+
+            nav ul{
+                list-style: none;
+                margin: 20px;
+                float:right;
+            }
+
+            nav ul li{
+                float:left;
+            }
+
+            nav ul li a:link{
+                display:block;
+                margin-right: 25px;
+                padding-bottom:3px;
+                text-transform:uppercase;
+            }
+
+          
+
+            #conteudo{
+                width:840px;
+                float:left;
+                background:rgb(248, 248, 162);
+                margin-bottom: 20px;
+                margin-left: 35px;
+                
+            }
+
+            aside{
+                width: 450px;
+                float:left;
+                margin-bottom: 20px;
+                margin-left: 35px;
+            }
+
+            section#consulta{
+                background:rgb(248, 248, 162);
+                padding:10px 27px 27px 27px;
+                margin-top: 10px;
+            }
+
+            h4{
+                color:rgb(62, 184, 163);
+                text-transform:uppercase;
+                padding-bottom: 3px;
+                margin-bottom: 0;
+            }
+
+            input{
+                width: 80px;
+                height: 20px;
+                background:#fff;
+                border:none;
+                font-size:1em;
+            }
+
+            input.campo{
+                border:1px solid rgb(248, 248, 162);
+            }
+
+            input.botao{
+                background: rgb(102, 216, 197);
+                color:black;
+                width: 100%;
+                height: 40px;
+                font-size:1.2em;
+            }
+            fieldset{
+                border:none;
+
+            }
+
+            legend{
+                display:none;
+            }
+
+            #galeria{
+                padding:0 27px 0 27px;
+            }
+            
+            #galeria a{
+                display: block;
+                background: url(fundo-foto.png) no-repeat;
+                border:1px solid rgb(62, 184, 163);;
+                float:left;
+                padding:15px 15px 16px 15px;
+                margin:10px 0 0 20px;
+                
+            }
+
+            #galeria img{
+                margin-left: 2px;
+                margin-top:3px;
+            }
+
+            h3{
+                color:rgb(62, 184, 163);
+                font-size:1.2em;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+            }
+
+            article#video{
+                float:left;
+                width: 310px;
+                margin-left: 25px;
+            }
+
+            article#mapa{
+                float:left;
+                width: 310px;
+                margin-left: 37px;
+            }
+
+            article#racas{
+                float:left;
+                width: 310px;
+                margin:15px 0 0 25px;
+                
+            }
+            article#cuidados{
+                float:left;
+                width: 310px;
+                margin:15px 0 0 37px;
+                
+            }
+
+            footer{
+                clear:both;
+                padding:20px 0 30px 0;
+                text-align: center;
+                background: rgb(62, 184, 163);
+                margin-top: 20px;
+            }
+
+            footer>p a{
+                padding:2px, 10px;
+            }
+
+
+            input{
+            width:80%;
+            height:40px;
+            font-size: 22px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding-left: 40px;
+            border:none;
+
+            background-repeat: no-repeat;
+            background-position: 10px;
+            }
+
+     input.nome { background-image: url(usuario.png); }
+
+     input.e-mail { background-image: url(e-mail.png); }
+
+     
+
+     nav.navbar-transparente{
+    padding: 13px 0px;
+    background:  rgba(0,0,0,0.6);
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:rgb(142, 99, 233);
+    
+}
+.capa{
+    text-align: center;
+}
+
+.btn-custom{
+    color:white;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: 0.4s, color 04s;
+    padding:10px 15px;
+}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="fundo_cab" id="container">
+            <div class="background">
+                <header><!-- inicio Cabecalho -->
+                 <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-transparente">
+                   <div class="container">
+                     
+                     <a href="#" class="navbar-brand">
+                     <div class="row rotacionar"></div>
+                       <img src="" width="142">
+                     </a>
+           
+                     <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
+           
+                     <div class="collapse navbar-collapse" id="nav-principal">
+                       <ul class="navbar-nav ml-auto">
+                         <li class="nav-item">
+                           <a href="" class="nav-link">Home</a>
+                         </li>
+                         <li class="nav-item">
+                           <a href="" class="nav-link">Instrumentos</a>
+                         </li>
+                         <li class="nav-item">
+                           <a href="" class="nav-link">Aulas de Canto</a>
+                         </li>
+                         <li class="nav-item">
+                           <a href="" class="nav-link">Teoria Musical</a>
+                         </li>
+                         <li class="nav-item">
+                           <a href="" class="btn btn-outline-light ml-4">Entrar</a>
+                         </li>
+                       </ul>
+                     </div>
+           
+                   </div>
+                 </nav>
+               </header>
+        </div>
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <center><h3>Aulas de Canto e Música</h3></center>
+                   <center><img src="Musiquinha.jpg" width="600" height="300" ></center>
+                </section><br>
+
+                <section id="postgem">
+                    <article id="video">
+                        <h3>Aquecimento Vocal</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/YpXpW-7bcog?si=G6kvAa4J6nuVXgNI" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Escola de Música</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58565.97318640153!2d-46.60372448913101!3d-23.44699462134348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef54078712f3b%3A0x3931d4f769ce3ccd!2sNelSom%20Escola%20de%20M%C3%BAsica%20e%20Loja%20de%20Instrumentos%20Musicais!5e0!3m2!1spt-BR!2sbr!4v1693945477028!5m2!1spt-BR!2sbr" 
+                        width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article><br>
+
+                </article>
+                <article id="racas">
+                    <h3>Instrumentos para aprender a tocar em nossos cursos</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Violão</a>
+                        </li>
+                        <li>
+                            <a href="#">Teclado/Piano</a>
+                        </li>
+                        <li>
+                            <a href="#">Baixo</a>
+                        </li>
+                        <li>
+                            <a href="#">Bateria</a>
+                        </li>
+            </div>   
+
+            <!-- ------- -->
+
+            <div id="principal">
+                <div id="conteudo">
+                    <section id="capa">
+                        <center><h3></h3></center>
+                       <center><img src="Musiquinha.jpg" width="600" height="300" ></center>
+                    </section><br><br>
+    
+                    <section id="postgem">
+                        <article id="video">
+                            <h3>Aquecimento Vocal</h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/YpXpW-7bcog?si=G6kvAa4J6nuVXgNI" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+                        </article>
+    
+                        <article id="mapa">
+                            <h3>Escola de Música</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58565.97318640153!2d-46.60372448913101!3d-23.44699462134348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef54078712f3b%3A0x3931d4f769ce3ccd!2sNelSom%20Escola%20de%20M%C3%BAsica%20e%20Loja%20de%20Instrumentos%20Musicais!5e0!3m2!1spt-BR!2sbr!4v1693945477028!5m2!1spt-BR!2sbr" 
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+                        </article><br>
+    
+                    </article>
+        
+    
+                </div>   
+
+
+
+
+           
+
+            <aside>
+                <section id="consulta" id="depoimento">
+                    <h4>Se Increva em nossos crusos</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Escreva seu nome</legend>
+                            <input  class="nome" img src="usuario.png" type="text" id="nome" value="Digite seu nome"><br>
+                            
+                            <legend>Escreva seu e-mail</legend>
+                            <input  class="e-mail" img src= "e-mail.png" type="text" id="e-mail" value="Digite seu E-mail"><br>
+
+                            <legend>Digite sua senha</legend>
+                            <input  class="e-mail" img src= "e-mail.png" type="text" id="e-mail" value="Digite sua senha">
+
+                        </fieldset>
+                        <input class="botao" type="submit" value="Login">
+                    </form>
+                </section><br>
+
+
+                <section id="galeria">
+                    <center table border = 1>
+                    <tr>
+                    <h4><th colspan = "8">MENSALIDA</th></h4>
+                    <tr>
+                    <tbody>
+                        <tr>
+                
+                        <th><height="93" width="93" alt=""><a>1 ano e 6 meses - R$ 99,99 em 12x</a><br>
+                        <th><height="93" width="93" alt=""><a>1 ano - R$ 89,99 em 12x</a><br>
+                        <th><height="93" width="93" alt=""><a>3 semanas - R$ 29,99 em 12x</a><br>
+                        <th><height="93" width="93" alt=""><a>6 meses - R$ 59,99 em 12x</a><br>
+                    </tbody>
+                </section></center>
+
+
+
+            </aside>
+
+            <footer style="clear:both;">
+                <p>Quer saber mais? Entre em contato com:<a href="#">Aula_de_Musica@gmail.com</a></p>
+                <p>2023- Aulas de canto - Curso Hibrido - Todos os direitos reservados a Alicia Beatriz</p>
+
+            </footer>
+
+        </div>
+
+    </body>
+</html>
+
