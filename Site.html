@@ -122,31 +122,7 @@
                 display:none;
             }
 
-            #galeria{
-                padding:0 27px 0 27px;
-            }
-            
-            #galeria a{
-                display: block;
-                background: url(fundo-foto.png) no-repeat;
-                border:1px solid rgb(62, 184, 163);;
-                float:left;
-                padding:15px 15px 16px 15px;
-                margin:10px 0 0 20px;
-                
-            }
-
-            #galeria img{
-                margin-left: 2px;
-                margin-top:3px;
-            }
-
-            h3{
-                color:rgb(62, 184, 163);
-                font-size:1.2em;
-                margin-bottom: 15px;
-                text-transform: uppercase;
-            }
+           
 
             article#video{
                 float:left;
@@ -235,9 +211,59 @@
 
 
 
+
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+
+.meio-contato li p{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+    margin-bottom: 15px;
+}
+
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+
+
         </style>
     </head>
     <body>
+
+        <div class="float-md-end"></div>
+
+
+
         <div class="fundo_cab" id="container">
             <div class="background">
                 <header><!-- inicio Cabecalho -->
@@ -314,7 +340,7 @@
                         <li>
                             <a href="#">Bateria</a>
                         </li>
-            </div>   
+            </div> <br><br>  
 
             <!-- ------- -->
 
@@ -367,32 +393,47 @@
                     </form>
                 </section><br>
 
-
-                <section id="galeria">
-                    <center table border = 1>
-                    <tr>
-                    <h4><th colspan = "8">MENSALIDA</th></h4>
-                    <tr>
-                    <tbody>
-                        <tr>
-                
-                        <th><height="93" width="93" alt=""><a>1 ano e 6 meses - R$ 99,99 em 12x</a><br>
-                        <th><height="93" width="93" alt=""><a>1 ano - R$ 89,99 em 12x</a><br>
-                        <th><height="93" width="93" alt=""><a>3 semanas - R$ 29,99 em 12x</a><br>
-                        <th><height="93" width="93" alt=""><a>6 meses - R$ 59,99 em 12x</a><br>
-                    </tbody>
-                </section></center>
-
-
-
             </aside>
 
-            <footer style="clear:both;">
-                <p>Quer saber mais? Entre em contato com:<a href="#">Aula_de_Musica@gmail.com</a></p>
-                <p>2023- Aulas de canto - Curso Hibrido - Todos os direitos reservados a Alicia Beatriz</p>
 
-            </footer>
+            <section class="Contato" id="Contato">
+                <div class="meio-contato">
+                    <h3>Classix</h3>
+                    <h5>Nós envie uma mensagem</h5>
+                    <div class="icons">
+                        <p href="#"><i class='bx bxl-facebook-square' ></i></p>
+                        <p href="#"><i class='bx bxl-instagram-alt' ></i></p>
+                        <p href="#"><i class='bx bxl-twitter' ></i></p>
+                    </div>
+                </div>
+        
+                <div class="meio-contato">
+                    <h3>Explore</h3>
+                    <li><p href="#home">Home</p></li>
+                    <li><p href="#featured">Featured</a></li>
+                    <li><p href="#new">New</p></li>
+                    <li><p href="#contact">Contact</p></li>
+                </div>
+        
+                <div class="meio-contato">
+                    <h3>Our Services</h3>
+                    <li><p href="#">Pricing</p></li>
+                    <li><p href="#">Free Shipping</p></li>
+                    <li><p href="#">Gift Cards</p></li>
+                </div>
+        
+                <div class="meio-contato">
+                    <h3>Shopping</h3>
+                    <li><p href="#">Clothing Store</p></li>
+                    <li><p href="#">Trending Shoes</p></li>
+                    <li><p href="#">Accessories</p></li>
+                    <li><p href="#">Sale</p></li>
+                </div>
+        
+            </section>
 
+
+        
         </div>
 
     </body>
